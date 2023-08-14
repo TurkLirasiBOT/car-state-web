@@ -1,0 +1,59 @@
+/* <!-- Css Dosyası değiştirmeyiniz. --> */
+
+body {
+    background-color: #1a1a1a;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    opacity: 0;
+}
+
+.fade-in {
+    animation: fade-in 1s ease forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    opacity: 0;
+}
+
+.fade-in-delayed {
+    animation: fade-in-delayed 1s ease forwards;
+}
+
+@keyframes fade-in-delayed {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
